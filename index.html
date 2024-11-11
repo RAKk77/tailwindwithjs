@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/bf58baaf18.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="hidden"></div> -->
+
+    <button
+      id="btntoggle"
+      class="px-9 py-3 active:scale-[1.05] ease-out bg-blue-600 rounded-full text-lg text-white ml-10 mt-20"
+    >
+      Show
+    </button>
+    <div id="container" class="w-[400px] rounded-lg bg-gray-500 m-auto hidden">
+      <div class="flex justify-between p-5">
+        <h3 class="text-[1.5rem]">Header modal</h3>
+        <button id="concel" class="text-[1.5rem]">
+          <i class="fa-regular fa-circle-xmark"></i>
+        </button>
+      </div>
+      <div class="w-full h-[1px] bg-slate-950"></div>
+      <h2 class="text-center p-3 text-[2rem] text-white">TailwindCss</h2>
+      <div class="w-full h-[0.5px] bg-slate-950"></div>
+      <div class="p-5 flex justify-end gap-6">
+        <button class="px-8 py-2 bg-red-500 rounded-full">Add</button>
+        <button class="px-8 py-2 bg-green-500 rounded-full">Concel</button>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
